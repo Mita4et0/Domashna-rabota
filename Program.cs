@@ -1,4 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-int number = 384;
-string dignumber = Convert.ToString(number,2);
-Console.WriteLine(number+"(10)="+dignumber+"(2)");
+string dignumber = "111011000";
+int number =Convert.ToInt32(dignumber,2);
+Console.WriteLine(dignumber + "(2)=" + number + "(10)");
